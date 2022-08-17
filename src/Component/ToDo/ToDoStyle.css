@@ -1,0 +1,36 @@
+.todo_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    text-align: left;
+    border: 3px solid #002ea6;
+    border-radius: 13px;
+    margin: 3px 0;
+    padding: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 154, 0.5)
+
+}
+
+
+.todo_box{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.todo_container{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.todo_title{
+    font-size: 19px;
+    margin: 4px 0;
+    padding: 0 5px;
+}
